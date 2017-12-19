@@ -1,0 +1,6 @@
+.workattendance-mine li{ border-top:1px solid #f2f2f2}
+.sidebar-menu li>a>.fa-angle-left, .sidebar-menu li>a>.pull-right-container>.fa-angle-left{ margin-top: 2px}
+.sidebar-menu li>a>.pull-right-container{ margin-top: -10px}
+.workattendance-mine .treeview-menu{ background: #fbfbfb}
+.workattendance-mine .treeview-menu li{border:none; padding:10px 20px;}
+.workattendance-mine>li>a{ padding: 12px 5px 12px 10px}

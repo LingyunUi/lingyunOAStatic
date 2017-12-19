@@ -1,0 +1,45 @@
+.b-t {
+  border-top: 1px solid rgba(120,130,140,.13);
+}
+.b-r {
+  border-right: 1px solid rgba(120,130,140,.13);
+}
+.expense-box{ margin-bottom: 0;}
+ul.expense-box li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 0 8px 20px;
+}
+ul.expense-box li i {
+  width: 60px;
+  font-size: 30px;
+  vertical-align: middle;
+  display: inline-block;
+}
+ul.expense-box li div, ul.expense-box li span {
+  display: inline-block;
+  vertical-align: middle;
+}
+ul.expense-box li div h2, ul.expense-box li span h2 {
+  margin-bottom: 0;
+}
+ul.expense-box li div h4, ul.expense-box li span h4 { font-size: 14px;
+  margin-top: 0;
+}
+.font-medium {
+  font-weight: 400;
+}
+.text-muted {
+  color: #8d9ea7;
+}
+.m-t-0 {
+  margin-top: 0!important;
+}
+
+@media screen and ( max-width: 767px) {
+  .b-r {
+    border-right:none;
+  }
+  .bb-t{border-top:1px solid #f2f2f2}
+}
+.workattendance-day-title{ padding: 0 10px}

@@ -1,0 +1,35 @@
+<app-content-header></app-content-header>
+<div class="content">
+  <div class="row">
+    <section class="col-lg-12 connectedSortable">
+
+      <div class="box box-white">
+        <div class="nav-tabs-custom">
+          <!-- Tabs within a box -->
+          <ul class="nav nav-tabs pull-right">
+            <li class="active"><a href="#vacation-tab1" data-toggle="tab">请假</a></li>
+            <li><a href="#vacation-tab2" data-toggle="tab">出差</a></li>
+            <li><a href="#vacation-tab3" data-toggle="tab">外出</a></li>
+            <li><a href="#vacation-tab4" data-toggle="tab">加班</a></li>
+            <li><a href="#vacation-tab5" data-toggle="tab">补卡</a></li>
+            <li class="pull-left header"><i class="fa fa-inbox"></i> 审批</li>
+          </ul>
+          <div class="tab-content no-padding">
+            <!-- Morris chart - Sales -->
+            <div class="chart tab-pane active" id="vacation-tab1" style="position: relative; height: 300px;">
+              <app-home-vacation-s></app-home-vacation-s>
+            </div>
+            <div class="chart tab-pane" id="vacation-tab2" style="position: relative; height: 300px;">出差</div>
+            <div class="chart tab-pane" id="vacation-tab3" style="position: relative; height: 300px;">外出</div>
+            <div class="chart tab-pane" id="vacation-tab4" style="position: relative; height: 300px;">加班</div>
+            <div class="chart tab-pane" id="vacation-tab5" style="position: relative; height: 300px;">补卡</div>
+          </div>
+        </div>
+        <!-- /.chat -->
+
+      </div>
+    </section>
+  </div>
+
+</div>
+

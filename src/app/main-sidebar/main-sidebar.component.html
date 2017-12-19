@@ -1,0 +1,128 @@
+<aside class="main-sidebar">
+  <!-- sidebar: style can be found in sidebar.less -->
+  <section class="sidebar">
+    <!-- Sidebar user panel -->
+    <div class="user-panel">
+      <div class="image user-img">
+        <img src="assets/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+      </div>
+      <div class="info">
+        <p>范小余</p>
+        <a href="#"><i class="fa fa-circle text-success"></i>在线</a>
+      </div>
+    </div>
+    <!-- search form -->
+    <form action="#" method="get" class="sidebar-form">
+      <div class="input-group">
+        <input type="text" name="q" class="form-control" placeholder="Search...">
+        <span class="input-group-btn">
+                <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
+                </button>
+              </span>
+      </div>
+    </form>
+    <!-- /.search form -->
+    <!-- sidebar menu: : style can be found in sidebar.less -->
+    <ul class="sidebar-menu" data-widget="tree">
+      <li class="active treeview">
+        <a [routerLink]="['/dashboard']">
+          <i class="fa  fa-home"></i> <span>主 页</span>
+        </a>
+      </li>
+      <li class="treeview">
+
+        <a [routerLink]="['/home-calendar']">
+          <i class="fa fa-calendar"></i>
+          <span>日历备忘</span>
+          <span class="pull-right-container">
+              <span class="label label-primary pull-right">4</span>
+            </span>
+        </a>
+      </li>
+      <li class="treeview">
+
+        <a [routerLink]="['/home-task']">
+          <i class="fa fa-files-o"></i>
+          <span>任务</span>
+          <span class="pull-right-container">
+              <span class="label label-primary pull-right">4</span>
+            </span>
+        </a>
+      </li>
+      <li>
+        <a [routerLink]="['/home-chat']">
+          <i class="fa fa-envelope-o"></i> <span>消 息</span>
+          <span class="pull-right-container">
+              <small class="label pull-right bg-green">new</small>
+            </span>
+        </a>
+      </li>
+      <li class="treeview">
+        <a href="#">
+          <i class="fa fa-pie-chart"></i>
+          <span>审 批</span>
+          <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+        </a>
+        <ul class="treeview-menu">
+          <li><a [routerLink]="['/home-vacation']"><i class="fa fa-circle-o"></i>出勤休假</a></li>
+          <li><a href="pages/charts/morris.html"><i class="fa fa-circle-o"></i>人事</a></li>
+          <li><a href="pages/charts/flot.html"><i class="fa fa-money"></i>财务</a></li>
+          <li><a href="pages/charts/inline.html"><i class="fa fa-circle-o"></i>行政</a></li>
+          <li><a href="pages/charts/inline.html"><i class="fa fa-circle-o"></i>其他</a></li>
+        </ul>
+      </li>
+      <li class="treeview">
+        <a href="#">
+          <i class="fa fa-laptop"></i>
+          <span>考 勤</span>
+          <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+        </a>
+        <ul class="treeview-menu">
+          <li><a [routerLink]="['/home-punchclock']"><i class="fa fa-clock-o"></i>打卡</a></li>
+          <li><a [routerLink]="['/home-workattendance']"><i class="fa fa-table"></i>统计</a></li>
+        </ul>
+      </li>
+      <li class="treeview">
+        <a href="#">
+          <i class="fa fa-book"></i> <span>日 志</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+        </a>
+        <ul class="treeview-menu">
+          <li><a href="pages/forms/general.html"><i class="fa fa-edit"></i>发日志 </a></li>
+          <li><a href="pages/forms/advanced.html"><i class="fa  fa-send-o"></i>我发出的</a></li>
+          <li><a href="pages/forms/editors.html"><i class="fa fa-cloud-download"></i> 我收到的</a></li>
+          <li><a href="pages/forms/editors.html"><i class="fa fa-table"></i> 日志报表</a></li>
+        </ul>
+      </li>
+      <li class="treeview">
+        <a href="#">
+          <i class="fa  fa-comments"></i> <span>会议</span>
+        </a>
+      </li>
+      <li class="treeview">
+        <a href="#">
+          <i class="fa  fa-list-ul"></i> <span>通讯录</span>
+        </a>
+      </li>
+      <li class="treeview">
+        <a href="#">
+          <i class="glyphicon glyphicon-briefcase"></i> <span>文档</span>
+          <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+        </a>
+        <ul class="treeview-menu">
+          <li><a href="pages/forms/general.html"><i class="glyphicon glyphicon-file"></i>公司文档 </a></li>
+          <li><a href="pages/forms/advanced.html"><i class="glyphicon glyphicon-book"></i>学习文档</a></li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+  <!-- /.sidebar -->
+</aside>

@@ -1,0 +1,26 @@
+
+<app-content-header></app-content-header>
+<div class="content">
+  <div class="row">
+    <section class="col-lg-12 connectedSortable">
+      <div class="box box-white">
+        <div class="box-header">
+          <i class="fa fa-bar-chart-o"></i>
+
+          <h3 class="box-title">考勤统计</h3>
+          <a [routerLink]="['./home-workattendance-mine']">我的</a>
+          <a [routerLink]="['./home-workattendance-day']">日统计</a>
+          <a [routerLink]="['./home-workattendance-month']">月统计</a>
+
+        </div>
+        <!-- /.box-header -->
+        <div class="box-body">
+          <router-outlet></router-outlet>
+        </div>
+        <!-- /.box-body -->
+
+      </div>
+
+    </section>
+  </div>
+</div>
