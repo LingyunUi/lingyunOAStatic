@@ -1,0 +1,40 @@
+<form role="form">
+  <div class="box-body">
+    <div class="form-group">
+      <label>出差地点</label>
+      <input class="form-control" type="text" placeholder="如：北京、上海、杭州">
+    </div>
+    <div class="form-group">
+      <label>时间段:</label>
+
+      <div class="input-group">
+        <div class="input-group-addon">
+          <i class="fa fa-calendar"></i>
+        </div>
+        <input type="text" class="form-control pull-right" id="reservation">
+      </div>
+      <!-- /.input group -->
+    </div>
+    <div class="form-group">
+      <label>出差时长（天）</label>
+      <input class="form-control" type="text" placeholder="请输入时长">
+    </div>
+    <div class="form-group">
+      <label>出差事由</label>
+      <textarea class="form-control" rows="3" placeholder="请输入出差事由 ..."></textarea>
+    </div>
+
+    <div class="form-group">
+      <input type="file" id="exampleInputFile">
+      <p class="help-block">根据排班自动计算时长</p>
+    </div>
+    <div class="form-group">
+    <button type="button" class="btn btn-block btn-default btn-flat"><i class="fa fa-plus"></i> 增加行程明细</button>
+    </div>
+  </div>
+  <!-- /.box-body -->
+
+  <div class="box-footer">
+    <button type="submit" class="btn btn-primary">提交</button>
+  </div>
+</form>
