@@ -33,6 +33,11 @@ import { HomeVacationS2Component } from './home-vacation-s2/home-vacation-s2.com
 import { HomeVacationS3Component } from './home-vacation-s3/home-vacation-s3.component';
 import { HomeVacationS4Component } from './home-vacation-s4/home-vacation-s4.component';
 import { HomeVacationS5Component } from './home-vacation-s5/home-vacation-s5.component';
+import { HomePersonalmattersComponent } from './home-personalmatters/home-personalmatters.component';
+import { HomePersonalmattersS1Component } from './home-personalmatters-s1/home-personalmatters-s1.component';
+import { HomePersonalmattersS2Component } from './home-personalmatters-s2/home-personalmatters-s2.component';
+import { HomePersonalmattersS3Component } from './home-personalmatters-s3/home-personalmatters-s3.component';
+import { HomePersonalmattersS4Component } from './home-personalmatters-s4/home-personalmatters-s4.component';
 
 const routes: Routes = [
   {path: '',  redirectTo: 'dashboard', pathMatch: 'full'},
@@ -42,6 +47,7 @@ const routes: Routes = [
   {path: 'home-task-detail', component: HomeTaskDetailComponent},
   {path: 'home-calendar', component: HomeCalendarComponent},
   {path: 'home-vacation', component: HomeVacationComponent},
+  {path: 'home-personalmatters', component: HomePersonalmattersComponent},
   {path: 'home-punchclock', component: HomePunchclockComponent},
   {path: 'home-workattendance', component: HomeWorkattendanceComponent,children:[
       {path: '', component: HomeWorkattendanceMineComponent},
@@ -80,7 +86,12 @@ const routes: Routes = [
     HomeVacationS2Component,
     HomeVacationS3Component,
     HomeVacationS4Component,
-    HomeVacationS5Component
+    HomeVacationS5Component,
+    HomePersonalmattersComponent,
+    HomePersonalmattersS1Component,
+    HomePersonalmattersS2Component,
+    HomePersonalmattersS3Component,
+    HomePersonalmattersS4Component
   ],
   imports: [
     BrowserModule,
