@@ -8,21 +8,31 @@
           <!-- Tabs within a box -->
           <ul class="nav nav-tabs pull-right">
 
-            <li><a href="#vacation-tab2" data-toggle="tab">出差</a></li>
+
             <li><a href="#vacation-tab3" data-toggle="tab">外出</a></li>
             <li><a href="#vacation-tab4" data-toggle="tab">加班</a></li>
             <li><a href="#vacation-tab5" data-toggle="tab">补卡</a></li>
+            <li><a href="#vacation-tab2" data-toggle="tab">出差</a></li>
             <li class="active"><a href="#vacation-tab1" data-toggle="tab">请假</a></li>
             <li class="pull-left header"><i class="fa fa-inbox"></i> 审批</li>
           </ul>
           <div class="tab-content no-padding">
             <!-- Morris chart - Sales -->
 
-            <div class="chart tab-pane" id="vacation-tab2" style="position: relative; height: 300px;">出差</div>
-            <div class="chart tab-pane" id="vacation-tab3" style="position: relative; height: 300px;">外出</div>
-            <div class="chart tab-pane" id="vacation-tab4" style="position: relative; height: 300px;">加班</div>
-            <div class="chart tab-pane" id="vacation-tab5" style="position: relative; height: 300px;">补卡</div>
-            <div class="chart tab-pane active" id="vacation-tab1" style="position: relative; height: 300px;">
+
+            <div class="chart tab-pane" id="vacation-tab3" style="position: relative;">
+              <app-home-vacation-s5></app-home-vacation-s5>
+              </div>
+            <div class="chart tab-pane" id="vacation-tab4" style="position: relative;">
+              <app-home-vacation-s4></app-home-vacation-s4>
+              </div>
+            <div class="chart tab-pane" id="vacation-tab5" style="position: relative; ">
+              <app-home-vacation-s3></app-home-vacation-s3>
+            </div>
+            <div class="chart tab-pane" id="vacation-tab2" style="position: relative;">
+              <app-home-vacation-s2></app-home-vacation-s2>
+            </div>
+            <div class="chart tab-pane active" id="vacation-tab1" style="position: relative;">
               <app-home-vacation-s></app-home-vacation-s>
             </div>
           </div>

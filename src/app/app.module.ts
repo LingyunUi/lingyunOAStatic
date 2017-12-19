@@ -29,6 +29,10 @@ import { HomeWorkattendanceMineComponent } from './home-workattendance-mine/home
 import { HomeWorkattendanceDayComponent } from './home-workattendance-day/home-workattendance-day.component';
 import { HomeWorkattendanceMonthComponent } from './home-workattendance-month/home-workattendance-month.component';
 import { HomeTaskDetailComponent } from './home-task-detail/home-task-detail.component';
+import { HomeVacationS2Component } from './home-vacation-s2/home-vacation-s2.component';
+import { HomeVacationS3Component } from './home-vacation-s3/home-vacation-s3.component';
+import { HomeVacationS4Component } from './home-vacation-s4/home-vacation-s4.component';
+import { HomeVacationS5Component } from './home-vacation-s5/home-vacation-s5.component';
 
 const routes: Routes = [
   {path: '',  redirectTo: 'dashboard', pathMatch: 'full'},
@@ -72,7 +76,11 @@ const routes: Routes = [
     HomeWorkattendanceMineComponent,
     HomeWorkattendanceDayComponent,
     HomeWorkattendanceMonthComponent,
-    HomeTaskDetailComponent
+    HomeTaskDetailComponent,
+    HomeVacationS2Component,
+    HomeVacationS3Component,
+    HomeVacationS4Component,
+    HomeVacationS5Component
   ],
   imports: [
     BrowserModule,
