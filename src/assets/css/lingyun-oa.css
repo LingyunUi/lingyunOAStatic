@@ -53,4 +53,7 @@ h1, h2, h3, h4, h5, h6 {  color: #313131;  font-family: Rubik,sans-serif;  margi
 .row-in i { font-size: 24px;}
 .text-info{color: #41b3f9}
 .box-body{border-radius: 0; overflow: hidden}
-
+.btn-primary{ background: #7460ee;border-radius: 0;}
+.btn-primary:hover, .btn-primary:active, .btn-primary.hover{ background: #7460ee}
+.nav-tabs-custom>.nav-tabs>li.active{border-top-color: #7ace4c}
+.bg-light-blue, .label-primary, .modal-primary .modal-body{ background: #41b3f9}
