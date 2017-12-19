@@ -1,0 +1,41 @@
+<app-content-header></app-content-header>
+<div class="content">
+  <div class="row">
+    <section class="col-lg-12 connectedSortable">
+
+      <div class="box box-white">
+        <div class="nav-tabs-custom">
+          <!-- Tabs within a box -->
+          <ul class="nav nav-tabs pull-right">
+
+
+            <li><a href="#personalmatters-tab4" data-toggle="tab">调岗申请</a></li>
+            <li><a href="#personalmatters-tab3" data-toggle="tab">离职申请</a></li>
+            <li><a href="#personalmatters-tab2" data-toggle="tab">招聘</a></li>
+            <li class="active"><a href="#personalmatters-tab1" data-toggle="tab">转正</a></li>
+            <li class="pull-left header"><i class="fa fa-inbox"></i>人事审批</li>
+          </ul>
+          <div class="tab-content no-padding">
+
+            <div class="chart tab-pane" id="personalmatters-tab4" style="position: relative;">
+              <app-home-personalmatters-s4></app-home-personalmatters-s4>
+            </div>
+            <div class="chart tab-pane" id="personalmatters-tab3" style="position: relative; ">
+              <app-home-personalmatters-s3></app-home-personalmatters-s3>
+            </div>
+            <div class="chart tab-pane" id="personalmatters-tab2" style="position: relative;">
+              <app-home-personalmatters-s2></app-home-personalmatters-s2>
+            </div>
+            <div class="chart tab-pane active" id="personalmatters-tab1" style="position: relative;">
+              <app-home-personalmatters-s1></app-home-personalmatters-s1>
+            </div>
+          </div>
+        </div>
+        <!-- /.chat -->
+
+      </div>
+    </section>
+  </div>
+
+</div>
+
