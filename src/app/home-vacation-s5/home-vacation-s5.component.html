@@ -1,1 +1,32 @@
-外出
+<form role="form">
+  <div class="box-body">
+
+    <div class="form-group">
+      <label>时间段:</label>
+
+      <div class="input-group">
+        <div class="input-group-addon">
+          <i class="fa fa-calendar"></i>
+        </div>
+        <input type="text" class="form-control pull-right" id="reservation">
+      </div>
+      <!-- /.input group -->
+    </div>
+
+    <div class="form-group">
+      <label>外出事由</label>
+      <textarea class="form-control" rows="3" placeholder="请输入外出事由 ..."></textarea>
+    </div>
+
+    <div class="form-group">
+      <input type="file" id="exampleInputFile">
+      <p class="help-block">时长将自动计入考勤统计</p>
+    </div>
+
+  </div>
+  <!-- /.box-body -->
+
+  <div class="box-footer">
+    <button type="submit" class="btn btn-primary">提交</button>
+  </div>
+</form>
