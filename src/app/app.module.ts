@@ -54,7 +54,6 @@ import { HomeOthersS2Component } from './home-others/home-others-s2/home-others-
 import { HomePersonslistComponent } from './home-personslist/home-personslist.component';
 import { HomeTechnologyfileComponent } from './home-technologyfile/home-technologyfile.component';
 import { HomeCompanyfileComponent } from './home-companyfile/home-companyfile.component';
-import {HometaskService} from './shared/hometask.service';
 import {HttpModule} from '@angular/http';
 
 import 'rxjs/Rx';
@@ -140,7 +139,7 @@ const routes: Routes = [
     RouterModule.forRoot(routes),
     HttpModule
   ],
-  providers: [HometaskService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

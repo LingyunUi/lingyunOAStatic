@@ -1,5 +1,5 @@
 <ul class="todo-list" >
-  <li [routerLink]="['/home-task-detail']"  *ngFor="let hometask of hometasks">
+  <li [routerLink]="['/home-task-detail']"  *ngFor="let hometask of hometasks | async">
     <!-- drag handle -->
     <span class="handle">
                          {{hometask.id}}
