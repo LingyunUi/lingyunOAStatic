@@ -1,0 +1,41 @@
+<app-content-header></app-content-header>
+<div class="content">
+  <div class="row">
+    <section class="col-lg-12 connectedSortable">
+
+      <div class="box box-white">
+        <div class="nav-tabs-custom">
+          <!-- Tabs within a box -->
+          <ul class="nav nav-tabs pull-right">
+
+
+            <li><a href="#finance-tab4" data-toggle="tab">采购</a></li>
+            <li><a href="#finance-tab3" data-toggle="tab">付款申请</a></li>
+            <li><a href="#finance-tab2" data-toggle="tab">备用金申请</a></li>
+            <li class="active"><a href="#finance-tab1" data-toggle="tab">报销</a></li>
+            <li class="pull-left header"><i class="fa fa-money"></i>财务审批</li>
+          </ul>
+          <div class="tab-content no-padding">
+
+            <div class="chart tab-pane" id="finance-tab4" style="position: relative;">
+              <app-home-finance-s4></app-home-finance-s4>
+            </div>
+            <div class="chart tab-pane" id="finance-tab3" style="position: relative; ">
+              <app-home-finance-s3></app-home-finance-s3>
+            </div>
+            <div class="chart tab-pane" id="finance-tab2" style="position: relative;">
+              <app-home-finance-s2></app-home-finance-s2>
+            </div>
+            <div class="chart tab-pane active" id="finance-tab1" style="position: relative;">
+              <app-home-finance-s1></app-home-finance-s1>
+            </div>
+          </div>
+        </div>
+        <!-- /.chat -->
+
+      </div>
+    </section>
+  </div>
+
+</div>
+

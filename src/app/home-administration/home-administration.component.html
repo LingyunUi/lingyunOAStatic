@@ -1,0 +1,41 @@
+<app-content-header></app-content-header>
+<div class="content">
+  <div class="row">
+    <section class="col-lg-12 connectedSortable">
+
+      <div class="box box-white">
+        <div class="nav-tabs-custom">
+          <!-- Tabs within a box -->
+          <ul class="nav nav-tabs pull-right">
+
+
+            <li><a href="#administration-tab4" data-toggle="tab">用车</a></li>
+            <li><a href="#administration-tab3" data-toggle="tab">物品领用</a></li>
+            <li><a href="#administration-tab2" data-toggle="tab">用印</a></li>
+            <li class="active"><a href="#administration-tab1" data-toggle="tab">通用</a></li>
+            <li class="pull-left header"><i class="fa fa-money"></i>行政审批</li>
+          </ul>
+          <div class="tab-content no-padding">
+
+            <div class="chart tab-pane" id="administration-tab4" style="position: relative;">
+              <app-home-administration-s4></app-home-administration-s4>
+            </div>
+            <div class="chart tab-pane" id="administration-tab3" style="position: relative; ">
+              <app-home-administration-s3></app-home-administration-s3>
+            </div>
+            <div class="chart tab-pane" id="administration-tab2" style="position: relative;">
+              <app-home-administration-s2></app-home-administration-s2>
+            </div>
+            <div class="chart tab-pane active" id="administration-tab1" style="position: relative;">
+              <app-home-administration-s1></app-home-administration-s1>
+            </div>
+          </div>
+        </div>
+        <!-- /.chat -->
+
+      </div>
+    </section>
+  </div>
+
+</div>
+
