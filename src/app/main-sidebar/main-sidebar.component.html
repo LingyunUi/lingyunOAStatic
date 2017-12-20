@@ -68,9 +68,9 @@
         <ul class="treeview-menu">
           <li><a [routerLink]="['/home-vacation']"><i class="fa fa-circle-o"></i>出勤休假</a></li>
           <li><a [routerLink]="['/home-personalmatters']"><i class="fa fa-circle-o"></i>人事</a></li>
-          <li><a href="pages/charts/flot.html"><i class="fa fa-money"></i>财务</a></li>
-          <li><a href="pages/charts/inline.html"><i class="fa fa-circle-o"></i>行政</a></li>
-          <li><a href="pages/charts/inline.html"><i class="fa fa-circle-o"></i>其他</a></li>
+          <li><a [routerLink]="['/home-finance']"><i class="fa fa-money"></i>财务</a></li>
+          <li><a [routerLink]="['/home-administration']"><i class="fa fa-circle-o"></i>行政</a></li>
+          <li><a [routerLink]="['/home-others']"><i class="fa fa-circle-o"></i>其他</a></li>
         </ul>
       </li>
       <li class="treeview">
@@ -106,8 +106,8 @@
         </a>
       </li>
       <li class="treeview">
-        <a href="#">
-          <i class="fa  fa-list-ul"></i> <span>通讯录</span>
+        <a [routerLink]="['/home-personslist']">
+          <i class="fa  fa-list-ul"></i> <span>人员列表</span>
         </a>
       </li>
       <li class="treeview">
@@ -118,8 +118,8 @@
             </span>
         </a>
         <ul class="treeview-menu">
-          <li><a href="pages/forms/general.html"><i class="glyphicon glyphicon-file"></i>公司文档 </a></li>
-          <li><a href="pages/forms/advanced.html"><i class="glyphicon glyphicon-book"></i>学习文档</a></li>
+          <li> <a [routerLink]="['/home-companyfile']"><i class="glyphicon glyphicon-file"></i>公司文档 </a></li>
+          <li><a [routerLink]="['/home-technologyfile']"><i class="glyphicon glyphicon-book"></i>学习文档</a></li>
         </ul>
       </li>
     </ul>

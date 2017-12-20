@@ -12,8 +12,6 @@ export class ContentWrapperComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    const formatDate = moment().format('YYYY年MM月DD日');
-    console.log(formatDate);
   }
 
 }

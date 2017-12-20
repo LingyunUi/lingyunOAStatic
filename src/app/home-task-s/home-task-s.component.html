@@ -1,14 +1,14 @@
-<ul class="todo-list">
-  <li [routerLink]="['/home-task-detail']">
+<ul class="todo-list" >
+  <li [routerLink]="['/home-task-detail']"  *ngFor="let hometask of hometasks">
     <!-- drag handle -->
     <span class="handle">
-                          <i class="fa fa-ellipsis-v"></i>
-                          <i class="fa fa-ellipsis-v"></i>
-                        </span>
+                         {{hometask.id}}
+    </span>
     <!-- checkbox -->
     <input type="checkbox" value="">
     <!-- todo text -->
-    <span class="text">【范余银】设计一个凌云网站首页效果图</span>
+    <span class="text">{{hometask.name}}</span>
+    <span class="text">{{hometask.age}}</span>
     <!-- Emphasis label -->
     <small class="label label-danger"><i class="fa fa-clock-o"></i> 2 mins</small>
     <!-- General tools such as edit or delete-->
@@ -17,7 +17,7 @@
       <i class="fa fa-trash-o"></i>
     </div>
   </li>
-  <li>
+ <!-- <li>
                         <span class="handle">
                           <i class="fa fa-ellipsis-v"></i>
                           <i class="fa fa-ellipsis-v"></i>
@@ -120,5 +120,5 @@
       <i class="fa fa-edit"></i>
       <i class="fa fa-trash-o"></i>
     </div>
-  </li>
+  </li>-->
 </ul>
