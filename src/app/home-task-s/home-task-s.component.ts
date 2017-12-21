@@ -14,7 +14,7 @@ export class HomeTaskSComponent implements OnInit {
   hometasks:Observable<any>;
 
   constructor(private http:Http){
-    this.hometasks = this.http.get('http://192.168.1.104:8080/users')
+    this.hometasks = this.http.get('/api/hometasks')
       .map((res) => res.json());
   }
 
