@@ -57,6 +57,9 @@ import { HomeCompanyfileComponent } from './home-companyfile/home-companyfile.co
 import {HttpModule} from '@angular/http';
 
 import 'rxjs/Rx';
+import { RegisterComponent } from './register/register.component';
+import { LoginComponent } from './login/login.component';
+import {FormsModule} from '@angular/forms';
 
 const routes: Routes = [
   {path: '',  redirectTo: 'dashboard', pathMatch: 'full'},
@@ -132,10 +135,14 @@ const routes: Routes = [
     HomeOthersS2Component,
     HomePersonslistComponent,
     HomeTechnologyfileComponent,
-    HomeCompanyfileComponent
+    HomeCompanyfileComponent,
+    RegisterComponent,
+    LoginComponent
+
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     RouterModule.forRoot(routes),
     HttpModule
   ],

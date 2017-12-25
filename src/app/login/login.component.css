@@ -1,0 +1,17 @@
+.login-mask{
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  display: block;
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+  padding-right: 17px;
+  background: #f2f2f2;
+  opacity: 1;
+}
+.modal-dialog{ margin-top:20%}
+.checkbox input[type=checkbox]{ margin-left: 0;}

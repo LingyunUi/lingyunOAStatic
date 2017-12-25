@@ -1,3 +1,4 @@
+
 <aside class="main-sidebar">
   <!-- sidebar: style can be found in sidebar.less -->
   <section class="sidebar">
@@ -25,13 +26,13 @@
     <!-- sidebar menu: : style can be found in sidebar.less -->
     <ul class="sidebar-menu" data-widget="tree">
       <li class="active treeview">
-        <a [routerLink]="['/dashboard']">
+        <a [routerLink]="['/dashboard']" data-toggle="push-menu">
           <i class="fa  fa-home"></i> <span>主 页</span>
         </a>
       </li>
       <li class="treeview">
 
-        <a [routerLink]="['/home-calendar']">
+        <a [routerLink]="['/home-calendar']" data-toggle="push-menu">
           <i class="fa fa-calendar"></i>
           <span>日历备忘</span>
           <span class="pull-right-container">
@@ -39,9 +40,11 @@
             </span>
         </a>
       </li>
+
+
       <li class="treeview">
 
-        <a [routerLink]="['/home-task']">
+        <a [routerLink]="['/home-task']" data-toggle="push-menu">
           <i class="fa fa-files-o"></i>
           <span>任务</span>
           <span class="pull-right-container">
@@ -50,7 +53,7 @@
         </a>
       </li>
       <li>
-        <a [routerLink]="['/home-chat']">
+        <a [routerLink]="['/home-chat']" data-toggle="push-menu">
           <i class="fa fa-envelope-o"></i> <span>消 息</span>
           <span class="pull-right-container">
               <small class="label pull-right bg-green">new</small>
@@ -66,11 +69,11 @@
             </span>
         </a>
         <ul class="treeview-menu">
-          <li><a [routerLink]="['/home-vacation']"><i class="fa fa-circle-o"></i>出勤休假</a></li>
-          <li><a [routerLink]="['/home-personalmatters']"><i class="fa fa-circle-o"></i>人事</a></li>
-          <li><a [routerLink]="['/home-finance']"><i class="fa fa-money"></i>财务</a></li>
-          <li><a [routerLink]="['/home-administration']"><i class="fa fa-circle-o"></i>行政</a></li>
-          <li><a [routerLink]="['/home-others']"><i class="fa fa-circle-o"></i>其他</a></li>
+          <li><a [routerLink]="['/home-vacation']" data-toggle="push-menu"><i class="fa fa-circle-o"></i>出勤休假</a></li>
+          <li><a [routerLink]="['/home-personalmatters']" data-toggle="push-menu"><i class="fa fa-circle-o"></i>人事</a></li>
+          <li><a [routerLink]="['/home-finance']" data-toggle="push-menu"><i class="fa fa-money"></i>财务</a></li>
+          <li><a [routerLink]="['/home-administration']" data-toggle="push-menu"><i class="fa fa-circle-o"></i>行政</a></li>
+          <li><a [routerLink]="['/home-others']" data-toggle="push-menu"><i class="fa fa-circle-o"></i>其他</a></li>
         </ul>
       </li>
       <li class="treeview">
@@ -81,9 +84,9 @@
               <i class="fa fa-angle-left pull-right"></i>
             </span>
         </a>
-        <ul class="treeview-menu">
-          <li><a [routerLink]="['/home-punchclock']"><i class="fa fa-clock-o"></i>打卡</a></li>
-          <li><a [routerLink]="['/home-workattendance']"><i class="fa fa-table"></i>统计</a></li>
+        <ul class="treeview-menu" >
+          <li><a [routerLink]="['/home-punchclock']" data-toggle="push-menu"><i class="fa fa-clock-o"></i>打卡</a></li>
+          <li><a [routerLink]="['/home-workattendance']" data-toggle="push-menu"><i class="fa fa-table"></i>统计</a></li>
         </ul>
       </li>
       <li class="treeview">
@@ -106,7 +109,7 @@
         </a>
       </li>
       <li class="treeview">
-        <a [routerLink]="['/home-personslist']">
+        <a [routerLink]="['/home-personslist']" data-toggle="push-menu">
           <i class="fa  fa-list-ul"></i> <span>人员列表</span>
         </a>
       </li>
@@ -118,8 +121,8 @@
             </span>
         </a>
         <ul class="treeview-menu">
-          <li> <a [routerLink]="['/home-companyfile']"><i class="glyphicon glyphicon-file"></i>公司文档 </a></li>
-          <li><a [routerLink]="['/home-technologyfile']"><i class="glyphicon glyphicon-book"></i>学习文档</a></li>
+          <li> <a [routerLink]="['/home-companyfile']" data-toggle="push-menu"><i class="glyphicon glyphicon-file"></i>公司文档 </a></li>
+          <li><a [routerLink]="['/home-technologyfile']" data-toggle="push-menu"><i class="glyphicon glyphicon-book"></i>学习文档</a></li>
         </ul>
       </li>
     </ul>

@@ -1,6 +1,62 @@
 /*!
  *   Author: Fine(finefish@foxmail.com)
  */
+@media (min-width: 768px) {
+  .sidebar-collapse .main-sidebar {
+    -webkit-transform: translate(0px, 0);
+    -ms-transform: translate(0px, 0);
+    -o-transform: translate(0px, 0);
+    transform: translate(0px, 0);
+  }
+
+  .sidebar-mini.sidebar-collapse .main-sidebar {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    width: 230px !important;
+    z-index: 850;
+  }
+  .sidebar-mini.sidebar-collapse .main-header .navbar {
+    margin-left: 230px;
+  }
+
+  .sidebar-mini.sidebar-collapse .main-header .logo>.logo-mini {
+    display: none;
+  }
+  .sidebar-mini.sidebar-collapse .main-header .logo>.logo-lg {
+    display: block;
+  }
+  .sidebar-mini.sidebar-collapse .main-header .logo {
+    width: 230px;
+  }
+  .sidebar-mini.sidebar-collapse .main-sidebar .user-panel>.info, .sidebar-mini.sidebar-collapse .sidebar-form{
+    display: block !important;
+    -webkit-transform: translateZ(0);
+  }
+  .sidebar-mini.sidebar-collapse .sidebar-menu>li>a>span{
+    display: inline-block !important;
+    -webkit-transform: translateZ(0);
+    box-sizing: border-box;
+  }
+.sidebar-toggle{ display: none}
+  .sidebar-menu .treeview-menu {
+    display: none;
+  }
+.sidebar-menu .active > .treeview-menu {
+    display: block !important;
+  }
+
+  .sidebar-mini.sidebar-collapse .sidebar-menu>li>.treeview-menu {
+    padding-top: 0;
+  }
+
+
+}
+@media (min-width: 768px){
+          .sidebar-mini.sidebar-collapse .content-wrapper, .sidebar-mini.sidebar-collapse .right-side, .sidebar-mini.sidebar-collapse .main-footer {
+            margin-left:230px !important;
+            z-index: 840;
+          }
+}
 
 .navbar a{ color: #fff}
 .content-wrapper{ background: #edf1f5}
@@ -57,3 +113,4 @@ h1, h2, h3, h4, h5, h6 {  color: #313131;  font-family: Rubik,sans-serif;  margi
 .btn-primary:hover, .btn-primary:active, .btn-primary.hover{ background: #7460ee}
 .nav-tabs-custom>.nav-tabs>li.active{border-top-color: #7ace4c}
 .bg-light-blue, .label-primary, .modal-primary .modal-body{ background: #41b3f9}
+
